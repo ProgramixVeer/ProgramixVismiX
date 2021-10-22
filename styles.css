@@ -82,11 +82,11 @@ input[type="submit"] {
     cursor:url(link.cur), pointer;
 }
 .link {
-    background-color: #7367F0;
+    color: #7367F0;
     cursor:url(link.cur), pointer;
 }
 .link:hover {
-    background-color: #7367F0;
+    color: #7367F0;
     cursor:url(link.cur), pointer;
 }
 
