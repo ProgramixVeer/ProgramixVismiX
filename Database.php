@@ -13,7 +13,7 @@
     $password = $_POST['password']
 
     //Database connection here
-    $con = new myqli("localhost","root","","test");
+    $con = new mysqli("localhost","root","","test");
     if($con->connect_error) {
         die("Failed to connect : ".$con->connect_error);
     } else {
