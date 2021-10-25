@@ -45,7 +45,7 @@ label {
 	font-size: 80%;
 }
 input[type="password"] {
-color: white;
+color:  black;
 background-color: transparent;
 border: none;
 border-radius: 6px;
@@ -59,7 +59,7 @@ outline: none;
 border-bottom: 1px solid rgb(160,158,158)
 }
 input[type="email"] {
-color: white;
+color: black;
 background-color: transparent;
 border-radius: 6px;
 border: none;
