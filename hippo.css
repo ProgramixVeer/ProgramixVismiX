@@ -1,1 +1,12 @@
-
+body {
+cursor:url("pointer.cur"), default;
+}
+h2 {
+font-family: Montserrat, Arial, Helvetica, serif;
+border-left: 1px solid #7367F0;
+margin-left: 10px;
+}
+p {
+font-family: Montserrat, Arial, Helvetica, serif;
+margin-left: 10px;
+}
