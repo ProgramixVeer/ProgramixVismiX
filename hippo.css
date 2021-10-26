@@ -1,18 +1,113 @@
 body {
-cursor:url("pointer.cur"), default;
-font-family: "Roboto", sans-serif;
-background-color: #ecf0f1;
-color: #2c3e50;
-}
-h1 {
-border-left: 5px solid #7367F0;
-padding-left: 10px;
+	cursor:url(pointer.cur), default;
 
-p {
-margin-left: 10px;
-color: #080808;
 }
-.Vip {
+.box {
 float: right;
-align-self: right;
+width: 455px;
+height: 690px;
+background-color: transparent;
+padding: 0px 21px;
+size: 100%;
+border-radius: 12px;
+}
+h2.me {
+color: #7367F0;
+font-family: Montserrat, Arial, Helvetica, serif;
+align-items: center;
+justify-content: center;
+width: 270px;
+height: 50px;
+margin-left: 45px;
+}
+h2 {
+  font-family: Montserrat, Arial, Helvetica, serif;
+  color: #7367F0;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+p {
+	color: black;
+	font-family: Montserrat, Arial, Helvetica, serif;
+	font-size: 80%;
+	margin-left: 45px;
+  margin-top: 20px;
+}
+p.bix {
+  margin-left: 130px;
+  color: black;
+  font-family: Montserrat, Arial, Helvetica, serif;
+  margin-top: 40px;
+}
+label {
+	color: black;
+	font-family: Montserrat, Arial, Helvetica, serif;
+	font-size: 80%;
+}
+input[type="text"] {
+color:  black;
+background-color: transparent;
+border: none;
+border-radius: 6px;
+font-family: Arial, Helvetica, sans-serif;
+width: 375px;
+height: 30px;
+margin-top: none;
+margin-left: 45px;
+margin-top: 10px;
+outline: none;
+border-bottom: 1px solid rgb(160,158,158)
+}
+input[type="email"] {
+color: black;
+background-color: transparent;
+border-radius: 6px;
+border: none;
+font-family: Arial, Helvetica, sans-serif;
+width: 375px;
+height: 30px;
+margin-left: 45px;
+margin-top: 0px;
+outline: none;
+border-bottom: 1px solid rgb(160,158,158)
+}
+input[type="submit"] {
+    background-color: #7367F0;
+    font-family: Montserrat, Arial, Helvetica, serif;
+    color: white;
+    border-radius: 8px;
+    border-color: transparent;
+    width: 375px;
+    height: 40px;
+    padding: 0px 100px;
+    float: center ;
+    margin-left: 50px; 
+    margin-top: 30px;
+    cursor:url(link.cur), pointer;
+}
+.link {
+    color: #7367F0;
+    cursor:url(link.cur), pointer;
+}
+.link:hover {
+    color: #7367F0;
+    cursor:url(link.cur), pointer;
+}
+
+.sum:hover {
+ 	box-shadow: 0px 0px 10px 0px #7367F0;
+}
+.google {
+  height: 25px;
+  width: 25px;
+  margin-left: 75px;
+}
+.git {
+  height: 25px;
+  width: 25px;
+  border-radius: 6px;
+}
+.twitt {
+  height: 25px;
+  width: 25px;
 }
