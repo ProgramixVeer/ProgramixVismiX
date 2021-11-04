@@ -10,12 +10,12 @@
             <h2 class="brand-text text-primary ml-1"> Vuexy </h2>
            <img src="Undraw.svg" width="785px">
             <body>
-       <form class="box">
+       <form name="Form" class="box">
         <h2 class="me">Welcome To Vuexy</h2>
         <p>Email</p>
-        <input type="email" placeholder="Email" id="email" required>
+        <input type="email" placeholder="Email" id="email" name="email" required>
         <p>Password</p>
-        <input type="password" placeholder="Password" id="password" required>
+        <input type="password" placeholder="Password" id="password" name="password"required>
         <input type="submit" class="sum" value="Sign in" onclick="validate()">
            <p class="bix">New On Our Platform<a class="link" style="text-decoration: none;" href="SignUp.html"> Sign up?</a></p>
                    </form>
@@ -26,21 +26,15 @@
           </style>
                 <script>
                     function validate() {
-                    var email = document.getElementById['email'];
-                    var password = document.getElementById['password'];
-                    if (email == 'veer@programixvismi.com' password == 'Admin@2821')
-                        {
-                        window.location.href = "index.html";
-                        }
-                        if (email == 'whitex@programixvismi.com' password == 'XWhite@16456') {
-                         window.location.href = "WhiteXDashboard.html";
-                        }
-                        return true;
-                        
-                        else {
-                           alert("Invalid login or password");
-                        }
-                       }
+  let email = document.forms["Form"]["email"].value;                  
+  let password = document.forms["Form"]["password"].value;
+  if (email == "veer@programixvismi.com" password == "Admin@2821") {
+    window.location.href = "https://programixveer.github.io/ProgramixVismiX/Vismi.html?"
+    return false;
+  } else {
+    alert("Invalid login or password")
+  }
+}
                         
                 </script>
         </body>
